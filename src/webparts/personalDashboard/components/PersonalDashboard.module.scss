@@ -1,0 +1,107 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.personalDashboard {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  & button {
+    background: $ms-color-themePrimary;
+    outline: none;
+    
+    & span {
+      font-weight: 600;
+    }
+  }
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.dashboardItem {
+  display: flex;
+  flex-grow: 1;
+  width: calc(50% - 24px);
+  min-width: 360px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color-sub1,#faf9f8);
+  padding: var(--tasks-padding, 12px);
+  color: var(--color-sub1, #323130);
+  margin: 12px;
+  padding: 24px 12px;
+  height: 360px;
+  overflow: scroll;
+  border-radius: 2px;
+}
+
+.toggleButton {
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+.sectionTitle {
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    padding: 0 12px;
+}
+
+.sectionBody {
+    font-family: var(--default-font-family);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color-sub1,#faf9f8);
+    padding: 0 12px;
+    color: var(--color-sub1,#323130);
+}
+
+.bodyHeader {
+    margin: var(--tasks-header-margin, 0 0 12px 0);
+    padding: var(--tasks-title-padding, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerText {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    height: var(--tasks-new-button-height, 34px);
+}
+
+.bodyButton {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--tasks-new-button-width, auto);
+    height: var(--tasks-new-button-height, 32px);
+    border-radius: 2px;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+}
+
+.linkItem {
+  font-weight: 500;
+  background: var(--tasks-new-button-color,#fff);
+  color: var(--color-sub1,#323130);
+  display: flex;
+}
