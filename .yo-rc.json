@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "yarn",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "sp-personal-dashboard",
+    "libraryId": "761f094f-f009-4614-af64-ef765ce6b507",
+    "environment": "spo",
+    "solutionName": "sp-personal-dashboard",
+    "solutionShortDescription": "sp-personal-dashboard description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

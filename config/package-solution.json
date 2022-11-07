@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-personal-dashboard-client-side-solution",
+    "id": "761f094f-f009-4614-af64-ef765ce6b507",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "MRS Company Ltd",
+      "websiteUrl": "https://mrscompany.com",
+      "privacyUrl": "https://mrscompany.com/policies",
+      "termsOfUseUrl": "https://mrscompany.com/policies",
+      "mpnId": "65260"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-personal-dashboard description"
+      },
+      "longDescription": {
+        "default": "sp-personal-dashboard description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-personal-dashboard Feature",
+        "description": "The feature that activates elements of the sp-personal-dashboard solution.",
+        "id": "9ef529a2-7eac-434b-afc1-05b30e3ed16f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-personal-dashboard.sppkg"
+  }
+}
