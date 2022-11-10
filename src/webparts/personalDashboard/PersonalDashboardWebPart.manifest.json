@@ -14,8 +14,8 @@
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
     "title": { "default": "Personal Dashboard" },
-    "description": { "default": "Personal Dashboard description" },
-    "officeFabricIconFontName": "Page",
+    "description": { "default": "Provides a personal dashboard with at a glance information for the signed in user." },
+    "officeFabricIconFontName": "ViewDashboard",
     "properties": {
       "description": "Personal Dashboard"
     }
